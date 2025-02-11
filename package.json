@@ -1,0 +1,20 @@
+{
+  "name": "adjoe-test-task",
+  "version": "1.0.0",
+  "description": "Solution for test task for adjoe's Senior QA Engineer position",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/testCaseOne.js --timeout 15000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1",
+    "selenium-webdriver": "^4.27.0"
+  },
+  "devDependencies": {
+    "jasmine": "^5.5.0"
+  }
+}
